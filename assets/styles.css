@@ -1,0 +1,15 @@
+*{
+    width:100%;
+}
+
+header {
+    font-family:'Poppins', sans-serif;
+    color: aliceblue;
+    background-color: darkslategray;
+    padding: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Fugaz One', cursive;
+}
