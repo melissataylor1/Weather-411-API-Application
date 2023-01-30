@@ -34,4 +34,8 @@ Here are various screenshots of my finished site page.
 
 The MIT License (MIT)
 
+<<<<<<< HEAD
 Day.js, Bootstrap, OpenWeatherMaps, Axios, and Jquery 
+=======
+Day.js, Bootstrap, OpenWeatherMaps, Axios, and Jquery 
+>>>>>>> 3465c8f06c6ac3e3eb71c524e4549c29672c4f7d
