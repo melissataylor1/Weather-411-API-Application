@@ -99,6 +99,23 @@
         renderSearchHist();
     })
 
+    function pastSearchHistory() {
+        histEl.innerHTML = ' ';
+        var ul = document.createElement('ul');
+        for (let i = 0; i < searchHistoryArr.length; i++) {
+          var li = document.createElement('li');
+          var pastSearch = document.createElement('a');
+          pastSearch.href = '#';
+          pastSearch.textContent = searchHistoryArr[i];
+          li.append(pastSearch);
+          ul.append(li);
+        }
+        historyEl.append(ul);
+      }
+      
+
+
+
 
     function renderSearchHist() {
         histEl.innerHTML = "";
