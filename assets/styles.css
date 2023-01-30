@@ -1,13 +1,14 @@
+
 header {
     font-family:'Poppins', sans-serif;
     color: aliceblue;
-    background-color: darkslategray;
+    background:linear-gradient(0deg, #000428 0%,#004e92 100%);
     padding: 20px;
     font-weight: 400;
 }
 
 h1 {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'bungee inline';
 }
 
 #city-input {
@@ -16,5 +17,32 @@ h1 {
 }
 
 .forecast-date {
-    font-weight:bold;
+    font-weight: 600;
 }
+
+#date {
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#forecast-box {
+    background: linear-gradient(180deg, #e0eafc, #cfdef3);
+color: #000428;
+}
+#current-weather {
+    background: linear-gradient(180deg, #e0eafc, #cfdef3);
+}
+
+#city-name {
+    font-family: 'Staatliches';
+    font-size: 2em;
+}
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2% 0;
+  }
