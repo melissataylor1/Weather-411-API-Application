@@ -10,11 +10,7 @@ h1 {
     font-family: 'Fugaz One', cursive;
 }
 
-#search-bar {
+#city-input {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-}
-
-p {
-    color:black;
 }
